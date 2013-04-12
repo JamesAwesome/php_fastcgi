@@ -1,5 +1,5 @@
 name 'MiMediaINC/php_fastcgi'
-version '0.0.1'
+version '0.0.2'
 source 'git@github.com:mimedia/php_fastcgi.git'
 author 'James Awesome Morelli'
 summary 'Configures upstart job for php5-cgi'
