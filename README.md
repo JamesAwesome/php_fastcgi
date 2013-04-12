@@ -16,6 +16,14 @@ configure the options she wants to run php5-cgi
 with and create the upstart job with minimal
 effort and wasted time.
 
+Compatibility
+-------------
+
+This module has only been tested in Ubuntu 12.04.
+
+This module requires [upstart](http://upstart.ubuntu.com/) in order
+to properly function.
+
 Basic usage
 -----------
 
