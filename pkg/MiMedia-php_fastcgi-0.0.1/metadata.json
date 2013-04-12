@@ -1,0 +1,25 @@
+{
+  "checksums": {
+    "CHANGELOG": "d7ef16ebe06ece659afb952d581c9c4f",
+    "Modulefile": "fed580373abd1cc6ca2cb3c23ed0e594",
+    "tests/init.pp": "597da949f1669d9ba48f5a660ee244d6",
+    "manifests/init.pp": "05e0740e071ae50e0cee039b30d6f01c",
+    "templates/php-fcgi.conf.erb": "40cda9512f64aa0679e01c5f67574fd6",
+    "LICENSE": "92dbd0e1d5adf8537519f030ed1809c5",
+    "README.md": "27a72f68496fe95f198b820525829f98"
+  },
+  "types": [
+
+  ],
+  "dependencies": [
+
+  ],
+  "license": "Apache License, Version 2.0",
+  "project_page": "UNKNOWN",
+  "summary": "UNKNOWN",
+  "source": "UNKNOWN",
+  "version": "0.0.1",
+  "description": "This module will configure\n  and create an upstart job for php5-cgi. All php5-cgi options\n  are configurable by calling the module as a parameterized\n  class. However php5-cgi can be configured with sensible\n  defaults by simply calling the class via include.",
+  "name": "MiMedia/php_fastcgi",
+  "author": "MiMedia"
+}
