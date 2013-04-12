@@ -1,12 +1,12 @@
 {
   "checksums": {
-    "CHANGELOG": "d7ef16ebe06ece659afb952d581c9c4f",
-    "Modulefile": "fed580373abd1cc6ca2cb3c23ed0e594",
-    "tests/init.pp": "597da949f1669d9ba48f5a660ee244d6",
-    "manifests/init.pp": "05e0740e071ae50e0cee039b30d6f01c",
     "templates/php-fcgi.conf.erb": "40cda9512f64aa0679e01c5f67574fd6",
-    "LICENSE": "92dbd0e1d5adf8537519f030ed1809c5",
-    "README.md": "27a72f68496fe95f198b820525829f98"
+    "tests/init.pp": "597da949f1669d9ba48f5a660ee244d6",
+    "CHANGELOG": "d7ef16ebe06ece659afb952d581c9c4f",
+    "README.md": "27a72f68496fe95f198b820525829f98",
+    "manifests/init.pp": "05e0740e071ae50e0cee039b30d6f01c",
+    "Modulefile": "fed580373abd1cc6ca2cb3c23ed0e594",
+    "LICENSE": "92dbd0e1d5adf8537519f030ed1809c5"
   },
   "types": [
 
