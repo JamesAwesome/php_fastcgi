@@ -1,0 +1,25 @@
+{
+  "types": [
+
+  ],
+  "license": "Apache License, Version 2.0",
+  "source": "git@github.com:mimedia/php_fastcgi.git",
+  "version": "0.0.5",
+  "author": "James Awesome Morelli",
+  "dependencies": [
+
+  ],
+  "project_page": "https://github.com/mimedia/php_fastcgi",
+  "description": "This module will configure\n  and create an upstart job for php5-cgi. All php5-cgi options\n  are configurable by calling the module as a parameterized\n  class. However php5-cgi can be configured with sensible\n  defaults by simply calling the class via include.",
+  "summary": "Configures upstart job for php5-cgi",
+  "name": "MiMediaINC/php_fastcgi",
+  "checksums": {
+    "Modulefile": "1732895a80824d58f3b34c3f0427f92a",
+    "manifests/init.pp": "73c72def98d9b8f313280e77584cbba6",
+    "README.md": "230843b3b4efb3fdcf4868b26363a63d",
+    "tests/init.pp": "597da949f1669d9ba48f5a660ee244d6",
+    "CHANGELOG": "60ba3a41d2c9735eebc65bf231531095",
+    "templates/php-fcgi.conf.erb": "4c9899b10717d6c84483f16ccd1af420",
+    "LICENSE": "92dbd0e1d5adf8537519f030ed1809c5"
+  }
+}
