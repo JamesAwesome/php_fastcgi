@@ -1,3 +1,4 @@
+v0.0.5: Fixed issue with job being started regardles of start parameter.
 v0.0.4: Changed php-fcgi provider explicitly to upstart.
 v0.0.3: Corrected variable name in upstart template.
 2013-4-12: Created module.

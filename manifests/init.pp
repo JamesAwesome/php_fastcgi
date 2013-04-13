@@ -22,14 +22,18 @@ class php_fastcgi(
     ensure  => file,
     path    => '/etc/init/php-fcgi.conf',
     content => template('php_fastcgi/php-fcgi.conf.erb'),
-    owner   => root,
-    group   => root,
+    owner   => 'root',
+    group   => 'root',
     mode    => '0644',
   }
 
   service {'php-fcgi':
-    ensure   => running,
-    provider => 'upstart',
+    ensure   => $start ? {
+      true   => running,
+      false  => undef,
+    },
+    enable   => $start,
+    provider => upstart,
   }
 
   Package['php5-cgi']   -> File['php-fcgi.conf'] -> 
